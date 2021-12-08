@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using System;
 using CliFx.Infrastructure;
+using System.Collections.Generic;
 
 namespace AdventOfCode2021
 {

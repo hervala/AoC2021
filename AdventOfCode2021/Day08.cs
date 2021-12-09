@@ -134,6 +134,7 @@ namespace AdventOfCode2021
                     segment[5] = new List<char> { segment[5][1] };
                 }
 
+                // solve value
                 var segmentSequence = new string(segment.Select(o => o.First()).ToArray());
 
                 var digits = valueStr.Trim().Split(' ');
@@ -177,6 +178,7 @@ namespace AdventOfCode2021
                     value += digit * (int)Math.Pow(10,Math.Abs(i - 3));
                 }
 
+                // cnt total 
                 total += value;
             }
 

@@ -13,18 +13,22 @@ namespace AdventOfCode2021
     {
         public override ValueTask Part01(IConsole console)
         {
-            var input = ParseInput();
+            var input = ParseInput(DayXX.input);
             return default;
         }
 
         public override ValueTask Part02(IConsole console)
         {
-            var input = ParseInput();
+            var input = ParseInput(DayXX.input);
             return default;
         }
 
-        private string[] ParseInput() =>
+        private string[] ParseInput(string input) =>
             input.Split(Environment.NewLine).ToArray();
+
+        private static string smallInput = @"";
+
+        private static string testInput = @"";
 
         private static string input = @"";
 
